@@ -1,0 +1,32 @@
+.container{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    width: 30%;
+    margin-right: 2rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.input:focus{
+    outline: none;
+}
+
+.btn{
+    width: 10%;
+    background-color: #00000050;
+    border: 1px solid #ffffff;
+    border-radius: 1rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.btn:hover{
+    background-color: #00000080;
+    cursor: pointer;
+}
