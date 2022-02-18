@@ -17,7 +17,7 @@ function Ciudad(props) {
                 <h4>Temperatura Mínima: {Math.round(props.temperaturaMin)} &#8451;</h4>          
                 <h4>Sensación Térmica: {Math.round(props.sensacion)} &#8451;</h4>          
                 <h4>Humedad: {props.humedad} %</h4>                  
-                <h4>Viento: {props.viento} km/h</h4>                  
+                <h4>Viento: {Math.round(props.viento)} km/h</h4>                  
             </div> 
         </div>
 

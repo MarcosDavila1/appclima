@@ -10,7 +10,8 @@ function Nav() {
     const [input, setInput] = useState("");
 
     function handleOnChange(e){
-        setInput(e.target.value)
+        let value = e.target.value;
+        setInput(value)
     }
 
     function handleOnSubmit(){
